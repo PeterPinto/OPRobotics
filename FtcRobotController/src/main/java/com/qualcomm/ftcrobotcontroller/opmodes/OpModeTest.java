@@ -5,6 +5,8 @@ import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.hardware.LightSensor;
 import com.qualcomm.robotcore.hardware.Servo;
 
+//TESTING TO SEE IF GIT WORKS PROPERLY
+
 public class OpModeTest extends OpMode {
 
     final static double MOTOR_POWER = 0.15; // Higher values will cause the robot to move faster
@@ -19,7 +21,7 @@ public class OpModeTest extends OpMode {
     Servo claw;
     Servo arm;
     LightSensor reflectedLight;
-    ///asdjfalskjhfakljshfklasjdf;lkajsdf
+
     /**
      * Constructor
      */
