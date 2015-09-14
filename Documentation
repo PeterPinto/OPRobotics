@@ -1,6 +1,10 @@
+init()
+    triggered before start
+
 start()
     runs on start of the opMode (runs only once)
     for initialization
+    optional
 
 loop()
     runs continuously during opMode
@@ -10,6 +14,7 @@ loop()
 
 stop()
     runs at end of opMode
+    optional
 
 Hardware interface
     Dcmotor
