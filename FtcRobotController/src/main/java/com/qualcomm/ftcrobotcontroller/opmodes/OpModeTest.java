@@ -33,4 +33,9 @@ public class OpModeTest extends OpMode {
         telemetry.addData("1 Start", "NullOp started at " + startDate);
         telemetry.addData("2 Status", "running for " + runtime.toString());
     }
+
+    @Override
+    public void stop() {
+
+    }
 }

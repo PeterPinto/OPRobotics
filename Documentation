@@ -1,0 +1,42 @@
+start()
+    runs on start of the opMode (runs only once)
+    for initialization
+
+loop()
+    runs continuously during opMode
+    Hardware values dont get sent until method returns
+        return as quickly as possible
+        no loops inside of this method
+
+stop()
+    runs at end of opMode
+
+Hardware interface
+    Dcmotor
+        setDirection - allows motors to be reversed (DcMotor.Direction.REVERSE)
+        setPower - set motor movement power (0 -> 1?)
+    Servo
+        setPosition - sets position (need to test different values)
+    LightSensor
+
+hardwareMap
+    dcMotor
+        get - maps motors based on name
+
+    servo
+        get - maps servos based on name
+
+    lightSensor
+         get - maps light sensor based on name
+
+
+telemetry
+    addData - adds data to the telemetry stream
+
+gamepad1. - data from controller 1 (also gamepad2 for other controller)
+    left_stick_y
+    left_stick_x
+    right_stick_y
+    right_stick_x
+    right_trigger
+    left_trigger
